@@ -4,8 +4,8 @@ const mongoose = require('mongoose');
 //main().catch(err => console.log(err));
 
 const connectDB=async()=> {
-  await mongoose.connect('mongodb+srv://learnerid:79SJvxSAbqJGHLod@namastenode.4qrxs.mongodb.net/test_dbase');
+  await mongoose.connect('mongodb+srv://@namastenode.4qrxs.mongodb.net/test_dbase');
 
-  // use `await mongoose.connect('mongodb+srv://learnerid:79SJvxSAbqJGHLod@namastenode.4qrxs.mongodb.net/');` if your database has auth enabled
+  // use `await mongoose.connect('mongodb+srv://@namastenode.4qrxs.mongodb.net/');` if your database has auth enabled
 }
 module.exports=connectDB;
