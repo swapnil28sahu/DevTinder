@@ -1,4 +1,4 @@
-const url="mongodb+srv://learnerid:79SJvxSAbqJGHLod@namastenode.4qrxs.mongodb.net/"
+const url="mongodb+srv://@namastenode.4qrxs.mongodb.net/"
 // Notes
 // go to mongodb Website
 // create a free MB cluster
